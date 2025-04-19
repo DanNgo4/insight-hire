@@ -16,5 +16,5 @@ export default defineConfig({
   define: {
     __VUE_DEVTOOLS__: false,
   },
-  base: "/cos30043/s104186810/a2/",
+  base: "/cos30043/s104186810/A2/",
 });
