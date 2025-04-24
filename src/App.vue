@@ -8,7 +8,7 @@ import Footer from "src/components/Footer.vue";
 <template>
   <NavBar />
 
-  <main class="min-vh-100">
+  <main>
     <RouterView />
   </main>
 

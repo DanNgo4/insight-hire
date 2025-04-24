@@ -8,7 +8,11 @@ const router = createRouter({
       path: "/",
       name: "home",
       component: JobExplorerView,
-      meta: { title: "Job Explorer" }
+      meta: { title: "Job Explorer" },
+      children: [
+        { path: "",    component: import("src/components/JobOverview.vue") },
+        { path: ":id", component: import("src/components/JobDetail.vue") }
+      ]
     },
 
     {
