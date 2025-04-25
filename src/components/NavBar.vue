@@ -21,6 +21,7 @@ const pages = [
       <a
         class="fs-4 fw-bold bg-transparent cursor-pointer"
         :href="BASE_URL"
+        @click.prevent="$router.push('/')"
       >
         Insight Hire
       </a>
