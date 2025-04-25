@@ -134,7 +134,7 @@ function onSubmit() {
       class="py-4"
       method="post"
       action="http://mercury.swin.edu.au/it000000/formtest.php"
-      @submit.prevent="onSubmit"
+      @submit.prevent="onSubmit()"
       novalidate
     >
       <fieldset class="border p-3 mb-4">
