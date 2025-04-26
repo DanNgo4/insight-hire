@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
+
 import JobExplorerView from "src/views/JobExplorerView.vue";
 
 const router = createRouter({

@@ -1,5 +1,6 @@
 <script setup>
 import { JOBS } from "src/assets/jobs.js";
+
 const jobs = JOBS;
 </script>
 
