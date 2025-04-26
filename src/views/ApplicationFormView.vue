@@ -144,7 +144,7 @@ function onSubmit() {
           <div class="col">
             <label for="firstName" class="form-label">
               First Name
-              <small class="required">*</small>
+              <small class="text-danger">*</small>
             </label>
 
             <input v-model="firstName"
@@ -161,7 +161,7 @@ function onSubmit() {
           <div class="col">
             <label for="lastName" class="form-label">
               Last Name
-              <small class="required">*</small>
+              <small class="text-danger">*</small>
             </label>
 
             <input v-model="lastName"
@@ -180,7 +180,7 @@ function onSubmit() {
           <div class="col">
             <label for="dob" class="form-label">
               Date of Birth
-              <small class="required">*</small>
+              <small class="text-danger">*</small>
             </label>
 
             <input v-model="dob"
@@ -203,7 +203,7 @@ function onSubmit() {
           <div class="col">
             <label for="username" class="form-label">
               Username
-              <small class="required">*</small>
+              <small class="text-danger">*</small>
             </label>
 
             <input v-model="username"
@@ -218,7 +218,7 @@ function onSubmit() {
           <div class="col">
             <label for="password" class="form-label">
               Password
-              <small class="required">*</small>
+              <small class="text-danger">*</small>
             </label>
 
             <input v-model="password"
@@ -237,7 +237,7 @@ function onSubmit() {
           <div class="col">
             <label for="confirmPassword" class="form-label">
               Confirm Password
-              <small class="required">*</small>
+              <small class="text-danger">*</small>
             </label>
 
             <input v-model="confirmPassword"
@@ -254,7 +254,7 @@ function onSubmit() {
           <div class="col">
             <label for="email" class="form-label">
               Email
-              <small class="required">*</small>
+              <small class="text-danger">*</small>
             </label>
 
             <input v-model="email"
@@ -305,7 +305,10 @@ function onSubmit() {
 
         <section class="row mb-3">
           <div class="col">
-            <label for="postcode" class="form-label">Postcode</label>
+            <label for="postcode" class="form-label">
+              Postcode
+              <small class="text-danger">*</small>
+            </label>
 
             <input v-model="postcode"
                    type="text"
@@ -320,7 +323,10 @@ function onSubmit() {
           </div>
 
           <div class="col">
-            <label for="mobile" class="form-label">Mobile Number</label>
+            <label for="mobile" class="form-label">
+              Mobile Number
+              <small class="text-danger">*</small>
+            </label>
 
             <input v-model="mobile"
                    type="text"
@@ -340,7 +346,7 @@ function onSubmit() {
         <div class="col">
           <label for="category" class="form-label">
             Preferred Job Category
-            <small class="required">*</small>
+            <small class="text-danger">*</small>
           </label>
 
           <select
@@ -374,6 +380,7 @@ function onSubmit() {
         >
           Terms and Conditions
         </button>
+
         <button type="submit" class="btn btn-primary">Submit</button>
       </section>
 
@@ -399,9 +406,5 @@ legend {
 
 .text-danger {
   font-size: 0.875rem;
-}
-
-.required {
-  color: red;
 }
 </style>

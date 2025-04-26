@@ -33,10 +33,6 @@ const job = computed(() =>
       <li><strong>Tags:                    </strong> {{ job.tags.join(", ") }}                    </li>
     </ul>
   </section>
-
-  <p v-else>
-    No job found with ID “{{ route.params.id }}”.
-  </p>
 </template>
 
 <style scoped>
@@ -44,10 +40,7 @@ const job = computed(() =>
   min-height: 50vh;
 }
 
-.job-detail h2 small {
-  font-weight: 400;
-}
-.job-detail ul li + li {
+.job-detail ul li {
   margin-top: 0.5rem;
 }
 </style>

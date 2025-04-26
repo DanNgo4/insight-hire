@@ -1,5 +1,5 @@
 <template>
-  <section class="job-overview p-4">
+  <section class="job-overview">
     <h2 class="mb-3">Job Overview</h2>
 
     <p>
@@ -24,6 +24,7 @@
 .job-overview h2 {
   font-weight: 600;
 }
+
 .job-overview p {
   margin-top: 0.75rem;
   line-height: 1.5;

@@ -23,7 +23,7 @@ function togglePriority(task) {
 </script>
 
 <template>
-  <div class="container py-4">
+  <article class="container py-4">
     <h2 class="mb-3">To-Do List</h2>
 
     <form @submit.prevent="addTask()" class="d-flex mb-3">
@@ -69,6 +69,6 @@ function togglePriority(task) {
         </div>
       </li>
     </ul>
-  </div>
+  </article>
 </template>
 
